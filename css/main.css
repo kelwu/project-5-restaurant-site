@@ -1,0 +1,35 @@
+html, body {
+	font-family: 'IM Fell DW Pica SC', serif;	
+}
+.header {
+	float: right;
+	position: fixed;
+	right: 10px;
+}
+video {
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+a:link {
+	color: white; 
+	background-color:transparent; 
+	text-decoration:none; 
+}
+a {
+	margin-right: 4%;
+}
+h3, h1, h2 {
+	text-align: center;
+	color: white;
+}
+.food {
+	color: orange;
+	font-size: 20px;
+
+}
