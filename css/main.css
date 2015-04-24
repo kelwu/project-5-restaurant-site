@@ -28,12 +28,20 @@ h3, h1, h2 {
 	text-align: center;
 	color: white;
 }
+.col-sm-12 {
+	background-color: white;
+}
 .food {
 	color: black;
 	font-size: 25px;
 	margin-bottom: 45px;
+	background-color: white;
 }
 .food-item {
 	color: orange;
 	margin-bottom: 8px;
+}
+.food-description {
+	margin-bottom: 5px;
+	font-family: arial;
 }
