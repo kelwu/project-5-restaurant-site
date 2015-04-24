@@ -2,9 +2,9 @@ html, body {
 	font-family: 'IM Fell DW Pica SC', serif;	
 }
 .header {
-	float: right;
 	position: fixed;
 	right: 10px;
+	width: 20%;
 }
 video {
   	position: fixed;
@@ -28,14 +28,13 @@ h3, h1, h2 {
 	text-align: center;
 	color: white;
 }
-.col-sm-12 {
-	background-color: white;
+h3 {
+	margin-top: 18%;
 }
 .food {
 	color: black;
 	font-size: 25px;
 	margin-bottom: 45px;
-	background-color: white;
 }
 .food-item {
 	color: orange;
