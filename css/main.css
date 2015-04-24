@@ -29,7 +29,9 @@ h3, h1, h2 {
 	color: white;
 }
 .food {
+	color: black;
+	font-size: 25px;
+}
+.food-item {
 	color: orange;
-	font-size: 20px;
-
 }
