@@ -31,7 +31,9 @@ h3, h1, h2 {
 .food {
 	color: black;
 	font-size: 25px;
+	margin-bottom: 45px;
 }
 .food-item {
 	color: orange;
+	margin-bottom: 8px;
 }
