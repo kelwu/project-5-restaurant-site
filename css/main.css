@@ -30,6 +30,13 @@ h3, h1, h2 {
 }
 h3 {
 	margin-top: 18%;
+	font-size: 40px;
+}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 30px;
 }
 .food {
 	color: black;
