@@ -6,6 +6,9 @@ html, body {
 	right: 10px;
 	width: 20%;
 }
+.background {
+	height: 100vh;
+}
 video {
   	position: fixed;
   	top: 0;
@@ -24,12 +27,20 @@ a:link {
 a {
 	margin-right: 4%;
 }
+.title {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
 h3, h1, h2 {
 	text-align: center;
 	color: white;
 }
 h3 {
-	margin-top: 18%;
 	font-size: 40px;
 }
 h1 {
