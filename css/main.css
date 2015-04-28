@@ -3,8 +3,7 @@ html, body {
 }
 .header {
 	position: fixed;
-	right: 10px;
-	width: 20%;
+	left: 44%;
 }
 .background {
 	height: 100vh;
@@ -23,6 +22,7 @@ a:link {
 	color: white; 
 	background-color:transparent; 
 	text-decoration:none; 
+	font-size: 24px;
 }
 a {
 	margin-right: 4%;
@@ -71,7 +71,7 @@ h2 {
 	font-family: arial;
 }
 .img {
-	width: 375px;
+	width: 90%;
 }
 
 
