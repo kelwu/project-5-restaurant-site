@@ -78,13 +78,25 @@ h2 {
 }
 .middle {
 	background-image: url("../assets/images/bg.jpg");
-	padding-top: 8%;
-	padding-left: 8%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+
 }
 .location {
 	font-style: arial;
 	font-size: 45px;
 }
-
-
+.bottom {
+	background-image: url("../assets/images/blanket.jpg")
+}
+.ourstory {
+	color: black;
+	font-size: 45px;
+	background-color: white;
+}
+.story {
+	color: black;
+	background-color: white;
+	font-style: verdana;
+}
 
