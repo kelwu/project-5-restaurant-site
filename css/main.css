@@ -1,9 +1,26 @@
 html, body {
 	font-family: 'IM Fell DW Pica SC', serif;	
 }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
 .header {
-	position: fixed;
-	left: 44%;
+	padding: 0;
+}
+.nav {
+  display: inline-block;
+  float: right;
+  box-sizing: border-box;
 }
 .background {
 	height: 100vh;
@@ -25,7 +42,7 @@ a:link {
 	font-size: 24px;
 }
 a {
-	margin-right: 4%;
+	padding-right: 5%;
 }
 .title {
 	position: relative;
@@ -99,4 +116,5 @@ img {
 	background-color: white;
 	font-style: verdana;
 }
+
 
