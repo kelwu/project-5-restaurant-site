@@ -104,7 +104,11 @@ img {
 	font-size: 45px;
 }
 .bottom {
-	background-image: url("../assets/images/blanket.jpg")
+	background-image: url("../assets/images/blanket.jpg");
+	background-size: cover;
+	padding-top: 4.4%;
+  	padding-left: 4.2%;
+  	padding-right: 4.2%;
 }
 .box {
 
@@ -114,20 +118,20 @@ img {
 	font-size: 45px;
 	background-color: white;
 	padding-left: 4.8%;
-	padding-top: 8%;
+	padding-top: 5%;
 
 }
 .story {
 	color: black;
 	background-color: white;
 	font-family: verdana;
-	font-size: 12px;
-	padding-bottom: 14.7%;
+	font-size: 13px;
+	padding-bottom: 5%;
   	padding-left: 5%;
 }
 .chef {
 	float: right;
-	width: 60%;
-  	padding-top: 9.5%;
+	width: 57%;
+  	padding-top: 5%;
   	margin-left: 10px;
 }
