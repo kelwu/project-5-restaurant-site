@@ -106,18 +106,28 @@ img {
 .bottom {
 	background-image: url("../assets/images/blanket.jpg")
 }
+.box {
+
+}
 .ourstory {
 	color: black;
 	font-size: 45px;
 	background-color: white;
+	padding-left: 4.8%;
+	padding-top: 8%;
+
 }
 .story {
 	color: black;
 	background-color: white;
-	font-style: verdana;
+	font-family: verdana;
+	font-size: 12px;
+	padding-bottom: 14.7%;
+  	padding-left: 5%;
 }
-
-
-.face {
+.chef {
 	float: right;
+	width: 60%;
+  	padding-top: 9.5%;
+  	margin-left: 10px;
 }
