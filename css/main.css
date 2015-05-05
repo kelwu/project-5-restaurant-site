@@ -107,8 +107,11 @@ img {
 	background-image: url("../assets/images/blanket.jpg");
 	background-size: cover;
 	padding-top: 4.4%;
-  	padding-left: 4.2%;
-  	padding-right: 4.2%;
+  	padding-left: 9%;
+  	padding-right: 9%;
+}
+.innerbox {
+	background-color: white;
 }
 .box {
 
@@ -131,7 +134,8 @@ img {
 }
 .chef {
 	float: right;
-	width: 57%;
+	width: 53%;
   	padding-top: 5%;
   	margin-left: 10px;
+  	margin-bottom: 5%;
 }
