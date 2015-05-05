@@ -21,6 +21,9 @@ html, body {
   display: inline-block;
   float: right;
   box-sizing: border-box;
+  position: fixed;
+  right: 5px;
+  z-index: 2;
 }
 .background {
 	height: 100vh;
@@ -138,4 +141,11 @@ img {
   	padding-top: 5%;
   	margin-left: 10px;
   	margin-bottom: 5%;
+}
+@media (max-width: 767px) {
+  .chef {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
 }
