@@ -1,9 +1,29 @@
 html, body {
 	font-family: 'IM Fell DW Pica SC', serif;	
 }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
 .header {
-	position: fixed;
-	left: 44%;
+	padding: 0;
+}
+.nav {
+  display: inline-block;
+  float: right;
+  box-sizing: border-box;
+  position: fixed;
+  right: 5px;
+  z-index: 2;
 }
 .background {
 	height: 100vh;
@@ -22,10 +42,10 @@ a:link {
 	color: white; 
 	background-color:transparent; 
 	text-decoration:none; 
-	font-size: 24px;
+	font-size: 23px;
 }
 a {
-	margin-right: 4%;
+	padding-right: 5%;
 }
 .title {
 	position: relative;
@@ -70,7 +90,7 @@ h2 {
 	margin-bottom: 5px;
 	font-family: arial;
 }
-.img {
+img {
 	width: 90%;
 }
 .col-sm-12 {
@@ -87,16 +107,67 @@ h2 {
 	font-size: 45px;
 }
 .bottom {
-	background-image: url("../assets/images/blanket.jpg")
+	background-image: url("../assets/images/blanket.jpg");
+	background-size: cover;
+	padding-top: 4.4%;
+  	padding-left: 9%;
+  	padding-right: 9%;
+  	padding-bottom: 4.4%;
+}
+.innerbox {
+	background-color: white;
+}
+.box {
+
 }
 .ourstory {
 	color: black;
 	font-size: 45px;
 	background-color: white;
+	padding-left: 4.8%;
+	padding-top: 5%;
+
 }
 .story {
 	color: black;
 	background-color: white;
-	font-style: verdana;
+	font-family: verdana;
+	font-size: 13px;
+	padding-bottom: 5%;
+  	padding-left: 5%;
 }
-
+.chef {
+	float: right;
+	width: 53%;
+  	padding-top: 5%;
+  	margin-left: 10px;
+  	margin-bottom: 5%;
+}
+@media (max-width: 767px) {
+  .chef {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .food-item {
+  	font-size: 30px;
+  }
+  .food-description {
+  	font-size: 23px;
+  }
+  .location-hours {
+  	font-size: 20px;
+  }
+  .story {
+  	font-size: 16px;
+  }
+  .background {
+  	background-image: url("../assets/images/bg.jpg");
+  }
+  video {
+  	display: none;
+  }
+  .nav {
+  	width: 100%;
+  }
+}
