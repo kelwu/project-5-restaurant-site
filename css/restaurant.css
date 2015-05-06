@@ -1,147 +1,149 @@
 html, body {
 	font-family: 'IM Fell DW Pica SC', serif;	
 }
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
- 
-.clearfix:after {
-  clear: both;
-}
- 
-.clearfix {
-  zoom: 1; /* ie 6/7 */
-}
-.header {
-	padding: 0;
-}
-.nav {
-  display: inline-block;
-  float: right;
-  box-sizing: border-box;
-  position: fixed;
-  right: 5px;
-  z-index: 2;
-}
-.background {
-	height: 100vh;
-}
-video {
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	min-width: 100%;
-  	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -1;
-}
-a:link {
-	color: white; 
-	background-color:transparent; 
-	text-decoration:none; 
-	font-size: 23px;
-}
-a {
-	padding-right: 5%;
-}
-.title {
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-}
-.row {
-	margin-left: 0;
-	margin-right: 0;
-}
-h3, h1, h2 {
-	text-align: center;
-	color: white;
-}
-h3 {
-	font-size: 40px;
-}
-h1 {
-	font-size: 70px;
-}
-h2 {
-	font-size: 30px;
-}
-.menu {
-	background-color: #e1e1e1;
-}
-.col-sm-6 {
-	padding-left: 8%;
-	padding-right: 8%;
-}
-.food {
-	color: black;
-	font-size: 40px;
-	margin-bottom: 45px;
-	margin-top: 60px;
-}
-.food-item {
-	color: orange;
-	margin-bottom: 8px;
-}
-.food-description {
-	margin-bottom: 5px;
-	font-family: arial;
-}
-img {
-	width: 90%;
-}
-.col-sm-12 {
-	color: white;
-}
-.middle {
-	background-image: url("../assets/images/bg.jpg");
-	padding-top: 6%;
-	padding-bottom: 6%;
+@media (min-width: 768px) {
+	.clearfix:before,
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	}
+	 
+	.clearfix:after {
+	  clear: both;
+	}
+	 
+	.clearfix {
+	  zoom: 1; /* ie 6/7 */
+	}
+	.header {
+		padding: 0;
+	}
+	.nav {
+	  display: inline-block;
+	  float: right;
+	  box-sizing: border-box;
+	  position: fixed;
+	  right: 5px;
+	  z-index: 2;
+	}
+	.background {
+		height: 100vh;
+	}
+	video {
+	  	position: fixed;
+	  	top: 0;
+	  	left: 0;
+	  	min-width: 100%;
+	  	min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -1;
+	}
+	a:link {
+		color: white; 
+		background-color:transparent; 
+		text-decoration:none; 
+		font-size: 23px;
+	}
+	a {
+		padding-right: 5%;
+	}
+	.title {
+		position: relative;
+	  	top: 50%;
+	  	transform: translateY(-50%);
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	h3, h1, h2 {
+		text-align: center;
+		color: white;
+	}
+	h3 {
+		font-size: 40px;
+	}
+	h1 {
+		font-size: 70px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.menu {
+		background-color: #e1e1e1;
+	}
+	.col-sm-6 {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	.food {
+		color: black;
+		font-size: 40px;
+		margin-bottom: 45px;
+		margin-top: 60px;
+	}
+	.food-item {
+		color: orange;
+		margin-bottom: 8px;
+	}
+	.food-description {
+		margin-bottom: 5px;
+		font-family: arial;
+	}
+	img {
+		width: 90%;
+	}
+	.col-sm-12 {
+		color: white;
+	}
+	.middle {
+		background-image: url("../assets/images/bg.jpg");
+		padding-top: 6%;
+		padding-bottom: 6%;
 
-}
-.location {
-	font-style: arial;
-	font-size: 45px;
-}
-.bottom {
-	background-image: url("../assets/images/blanket.jpg");
-	background-size: cover;
-	padding-top: 4.4%;
-  	padding-left: 9%;
-  	padding-right: 9%;
-  	padding-bottom: 4.4%;
-}
-.innerbox {
-	background-color: white;
-}
-.box {
+	}
+	.location {
+		font-style: arial;
+		font-size: 45px;
+	}
+	.bottom {
+		background-image: url("../assets/images/blanket.jpg");
+		background-size: cover;
+		padding-top: 4.4%;
+	  	padding-left: 9%;
+	  	padding-right: 9%;
+	  	padding-bottom: 4.4%;
+	}
+	.innerbox {
+		background-color: white;
+	}
+	.box {
 
-}
-.ourstory {
-	color: black;
-	font-size: 45px;
-	background-color: white;
-	padding-left: 4.8%;
-	padding-top: 5%;
+	}
+	.ourstory {
+		color: black;
+		font-size: 45px;
+		background-color: white;
+		padding-left: 4.8%;
+		padding-top: 5%;
 
-}
-.story {
-	color: black;
-	background-color: white;
-	font-family: verdana;
-	font-size: 13px;
-	padding-bottom: 5%;
-  	padding-left: 5%;
-}
-.chef {
-	float: right;
-	width: 53%;
-  	padding-top: 5%;
-  	margin-left: 10px;
-  	margin-bottom: 5%;
+	}
+	.story {
+		color: black;
+		background-color: white;
+		font-family: verdana;
+		font-size: 13px;
+		padding-bottom: 5%;
+	  	padding-left: 5%;
+	}
+	.chef {
+		float: right;
+		width: 53%;
+	  	padding-top: 5%;
+	  	margin-left: 10px;
+	  	margin-bottom: 5%;
+	}
 }
 @media (max-width: 767px) {
   .chef {
