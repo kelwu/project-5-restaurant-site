@@ -149,4 +149,16 @@ img {
     width: 100%;
     text-align: center;
   }
+  .food-item {
+  	font-size: 30px;
+  }
+  .food-description {
+  	font-size: 23px;
+  }
+  .location-hours {
+  	font-size: 20px;
+  }
+  .story {
+  	font-size: 16px;
+  }
 }
