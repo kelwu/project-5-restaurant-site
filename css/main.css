@@ -106,6 +106,10 @@ img {
 	font-style: arial;
 	font-size: 45px;
 }
+.location-hours {
+	font-size: 20px;
+  	margin-top: 30px;
+}
 .bottom {
 	background-image: url("../assets/images/blanket.jpg");
 	background-size: cover;
@@ -154,9 +158,6 @@ img {
   }
   .food-description {
   	font-size: 23px;
-  }
-  .location-hours {
-  	font-size: 20px;
   }
   .story {
   	font-size: 16px;
