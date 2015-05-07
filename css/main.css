@@ -147,6 +147,7 @@ img {
   	margin-left: 10px;
   	margin-bottom: 5%;
 }
+/* Mobile Responsive */
 @media (max-width: 767px) {
   .chef {
     float: none;
