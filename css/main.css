@@ -24,6 +24,7 @@ html, body {
   position: fixed;
   right: 5px;
   z-index: 2;
+  width: 40vw;
 }
 .background {
 	height: 100vh;
@@ -44,8 +45,12 @@ a:link {
 	text-decoration:none; 
 	font-size: 20px;
 }
+a:visited {color: white; background-color:transparent; text-decoration:none}
+a:hover   {color: white; background-color:transparent; text-decoration:none}
+a:active  {color: white; background-color:transparent; text-decoration:none}
 a {
 	padding-right: 5%;
+	color: white;
 }
 .title {
 	position: relative;
@@ -171,5 +176,7 @@ img {
   }
   .nav {
   	background-color: gray;
+  	width: 100%;
+  	text-align: center;
   }
 }
